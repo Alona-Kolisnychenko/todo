@@ -1,3 +1,9 @@
 .App {
   text-align: center;
 }
+h1{
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-shadow: 0 0 5px rgb(24, 183, 143);;
+}
