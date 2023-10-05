@@ -1,0 +1,23 @@
+.button{
+    background-color: rgb(5, 143, 115);
+    color:  white;
+    cursor: pointer;
+    height: 50px;
+    padding: 0 15px;
+    transition: 0.3s;
+    border: 2px solid rgb(5, 143, 115);
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+.button:hover{
+    box-shadow: 1px 1px 5px 0 rgb(41, 227, 181);
+    background-color: rgb(11, 170, 138);
+}
+.button:disabled{
+    background-color: rgb(117, 200, 183);
+    border-color: grey;
+    color: grey;
+}
+.button:disabled:hover{
+    box-shadow: none;
+}

@@ -6,31 +6,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 420px;
+    max-width: 440px;
     margin: 0 auto;
 }
 
 .toDoFormContainer input{
     width: 300px;
+    height: 50px;
+    padding: 0 10px;
+    border: 2px solid rgb(5, 143, 115);
+    border-radius: 5px;
+    font-size: 1.5rem;
 }
 .toDoFormContainer input:focus{
     outline: none;
     box-shadow: 1px 1px 5px 0 rgb(24, 183, 143);
-}
-
-
-.toDoFormContainer button{
-    background-color: rgb(5, 143, 115);
-    color:  white;
-    cursor: pointer;
-    transition: 0.3s;
-}
-.toDoFormContainer button:hover{
-    box-shadow: 1px 1px 5px 0 rgb(24, 183, 143);
-}
-.toDoFormContainer input, button{
-    padding: 10px;
-    border: 2px solid rgb(5, 143, 115);
-    border-radius: 5px;
-    font-size: 20px;
 }
